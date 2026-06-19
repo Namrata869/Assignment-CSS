@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:url("bg.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    font-family:Georgia, serif;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+}
+
+.box{
+    background:black;
+    color:white;
+    border:6px solid red;
+    border-radius:30px;
+    padding:25px;
+    width:32%;
+    text-align:center;
+    font-style:italic;
+}
+
+.center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+}
+
+.center a{
+    color:white;
+    text-decoration:none;
+    font-size:28px;
+}
+
+.offer{
+    width:450px;
+    height:450px;
+    border-radius:50%;
+    background:#48c9c9;
+    border:8px solid gray;
+    text-align:center;
+    padding:80px 20px;
+    margin:50px;
+    float:left;
+}
+
+.offer h1{
+    text-decoration:underline;
+    width:100%;
+}
+
+.offer h2{
+    margin-top:50px;
+    text-decoration:underline;
+}
+
+.form-box{
+    width:400px;
+
+    border:8px dashed red;
+    margin:auto;
+    text-align:center;
+    color:red;
+    padding:20px;
+}
+
+.form-box form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items:center;
+}
+
+.form-box input{
+    padding:8px;
+    width:220px;
+}
+
+button{
+    padding:8px 15px;
+}
+
+.menu-heading{
+    width:500px;
+    margin:50px auto;
+    background:black;
+    color:white;
+    border:6px solid red;
+    border-radius:30px;
+    text-align:center;
+    padding:20px;
+    font-style:italic;
+}
+
+.menu-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    gap:40px;
+    margin:50px;
+}
+
+.card{
+    width:350px;
+    background:turquoise;
+    border:3px solid green;
+    border-radius:25px;
+    text-align:center;
+    padding:20px;
+}
+
+.card h2{
+    color:navy;
+    margin-bottom:20px;
+}
+
+.card ul{
+    text-align:left;
+    margin-left:80px;
+}
